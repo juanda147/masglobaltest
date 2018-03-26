@@ -4,8 +4,12 @@
 
     var getEmployees = function () {
 
-        var employeeId = Number($("#employeeID").val()) || 0;
-        
+        var employeeId = $("#employeeID").val() === "" ? 0 : $("#employeeID").val();
+
+        if (isNaN(employeeId) || employeeId < 0) {
+            result([]);
+            return false;
+        }
 
         $.ajax({
             url: "/api/EmployeeAPI/GetAllEmployee?employeeId=" + employeeId,

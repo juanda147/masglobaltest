@@ -22,38 +22,26 @@ namespace HandsOn.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<dynamic> GetAllEmployees(int employeeId)
+        public IEnumerable<dynamic> GetAllEmployees(string employeeId)
         {
-            IList<Employee> result = _businessService.GetEmployeesFromAPI();
+            IEnumerable<Employee> result = _businessService.GetEmployeesFromAPI();
             AbstractEmployeeFactory factory = new ConcreteEmployeeFactory();
-            IEnumerable<dynamic> response;
 
-            if (employeeId != 0)
+            var empId = -1;
+            int.TryParse(employeeId, out empId);
+
+            result = empId > 0 ? result.Where(x => x.Id == empId) : result;
+
+            IEnumerable<dynamic> response = result.Select(o => new
             {
-                response = result.Where(x => x.Id == employeeId).Select(o => new
-                {
-                    o.Id,
-                    o.Name,
-                    o.ContractTypeName,
-                    Role = o.RoleName,
-                    o.HourlySalary,
-                    o.MonthlySalary,
-                    Salary = factory.GetSalary(o.ContractTypeName, o)
-                });
-            }
-            else
-            {
-                response = result.Select(o => new
-                {
-                    o.Id,
-                    o.Name,
-                    o.ContractTypeName,
-                    Role = o.RoleName,
-                    o.HourlySalary,
-                    o.MonthlySalary,
-                    Salary = factory.GetSalary(o.ContractTypeName, o)
-                });
-            }
+                o.Id,
+                o.Name,
+                o.ContractTypeName,
+                Role = o.RoleName,
+                o.HourlySalary,
+                o.MonthlySalary,
+                Salary = factory.GetSalary(o.ContractTypeName, o)
+            });
 
             return response;
         }
