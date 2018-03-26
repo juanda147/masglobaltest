@@ -13,7 +13,6 @@ namespace HandsOn.Business.Tests
     [TestClass()]
     public class APIControllerTest
     {
-
         [TestMethod()]
         public void GetEmployeesFromAPITest()
         {
