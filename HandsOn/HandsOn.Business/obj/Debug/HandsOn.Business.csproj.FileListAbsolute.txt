@@ -1,0 +1,11 @@
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\bin\Debug\HandsOn.Business.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\bin\Debug\HandsOn.Business.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\bin\Debug\HandsOn.DataAccess.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\bin\Debug\Newtonsoft.Json.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\bin\Debug\HandsOn.DataAccess.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\bin\Debug\Newtonsoft.Json.xml
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\obj\Debug\HandsOn.Business.csprojResolveAssemblyReference.cache
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\obj\Debug\HandsOn.Business.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\obj\Debug\HandsOn.Business.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\bin\Debug\HandsOn.Model.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Business\bin\Debug\HandsOn.Model.pdb

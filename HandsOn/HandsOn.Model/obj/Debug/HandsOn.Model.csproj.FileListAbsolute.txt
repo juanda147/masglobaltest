@@ -1,0 +1,5 @@
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Model\bin\Debug\HandsOn.Model.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Model\bin\Debug\HandsOn.Model.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Model\obj\Debug\HandsOn.Model.csprojResolveAssemblyReference.cache
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Model\obj\Debug\HandsOn.Model.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Model\obj\Debug\HandsOn.Model.pdb

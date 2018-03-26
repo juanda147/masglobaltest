@@ -17,6 +17,8 @@ F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\HandsOn.pdb
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Antlr3.Runtime.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\EntityFramework.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\EntityFramework.SqlServer.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\HandsOn.Business.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\HandsOn.DataAccess.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Microsoft.AI.Agent.Intercept.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Microsoft.AI.DependencyCollector.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -51,6 +53,8 @@ F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\System.Web.WebPages.Deployment.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\System.Web.WebPages.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\System.Web.WebPages.Razor.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\WebGrease.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\HandsOn.Business.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\HandsOn.DataAccess.pdb
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Microsoft.AI.DependencyCollector.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Microsoft.AI.ServerTelemetryChannel.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Microsoft.AI.Web.xml
@@ -86,3 +90,11 @@ F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Microsoft.Owin.Security.MicrosoftAccount
 F:\Codigo\MasGlobal\HandsOn\HandsOn\obj\Debug\HandsOn.UI.csprojResolveAssemblyReference.cache
 F:\Codigo\MasGlobal\HandsOn\HandsOn\obj\Debug\HandsOn.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn\obj\Debug\HandsOn.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Autofac.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Autofac.Integration.Mvc.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Autofac.Integration.WebApi.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Autofac.xml
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Autofac.Integration.Mvc.xml
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\Autofac.Integration.WebApi.xml
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\HandsOn.Model.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn\bin\HandsOn.Model.pdb

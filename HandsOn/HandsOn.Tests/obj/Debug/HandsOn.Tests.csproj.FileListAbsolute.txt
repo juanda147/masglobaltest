@@ -35,7 +35,6 @@ F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\System.Web.Http.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\EntityFramework.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\System.Web.Http.WebHost.dll
-F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\System.Net.Http.Formatting.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\HandsOn.pdb
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Newtonsoft.Json.xml
@@ -55,8 +54,17 @@ F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\System.Web.Http.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\EntityFramework.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\System.Web.Http.WebHost.xml
-F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\System.Net.Http.Formatting.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\obj\Debug\HandsOn.Tests.csprojResolveAssemblyReference.cache
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\obj\Debug\HandsOn.Tests.dll
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\obj\Debug\HandsOn.Tests.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\HandsOn.Business.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\HandsOn.DataAccess.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\HandsOn.Business.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\HandsOn.DataAccess.pdb
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.xml
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.Integration.WebApi.xml
