@@ -6,5 +6,27 @@
 <div class="row">
     <h1>Hands On Test</h1>
     <p class="lead">Click on the button to get all the employees</p>
-    <input type="button" value="Get Employees" class="btn btn-primary btn-sm" id="getEmployees"/>
+    <input type="text" id="employeeID" placeholder="Employee ID"/>
+    <input type="button" value="Get Employees" class="btn btn-primary btn-sm" id="getEmployees" />
+    <br/>
+    <br/>
+</div>
+
+<div class="row">
+    <table>
+        <thead>
+            <tr><th width="5%">Id</th><th width="5%">Name</th><th width="10%">Contract Type Name</th><th width="10%">Role</th><th width="10%">Hourly Salary</th><th width="10%">Monthly Salary</th><th width="10%">Salary</th></tr>
+        </thead>
+        <tbody data-bind="foreach: gridEmployeesData">
+            <tr>
+                <td data-bind="text: Id"></td>
+                <td data-bind="text: Name"></td>
+                <td data-bind="text: ContractTypeName"></td>
+                <td data-bind="text: Role"></td>
+                <td data-bind="text: HourlySalary"></td>
+                <td data-bind="text: MonthlySalary"></td>
+                <td data-bind="text: Salary"></td>
+            </tr>
+        </tbody>
+    </table>
 </div>

@@ -68,3 +68,5 @@ F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.Integration.WebApi.d
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.Integration.Mvc.xml
 F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\HandsOn.Model.dll
+F:\Codigo\MasGlobal\HandsOn\HandsOn.Tests\bin\Debug\HandsOn.Model.pdb

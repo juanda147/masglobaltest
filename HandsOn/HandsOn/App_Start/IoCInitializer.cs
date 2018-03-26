@@ -15,20 +15,48 @@ namespace HandsOn.UI
 {
     public class IoCInitializer
     {
-        public static void ConfigureContainer()
+        public static IContainer Container;
+
+        public static void Initialize(HttpConfiguration config)
         {
-            var builder = new ContainerBuilder();
-            
-            builder.RegisterControllers(Assembly.GetExecutingAssembly());
+            Initialize(config, RegisterServices(new ContainerBuilder()));
+        }
+
+        public static void Initialize(HttpConfiguration config, IContainer container)
+        {
+            config.DependencyResolver = new AutofacWebApiDependencyResolver(container);
+        }
+
+        private static IContainer RegisterServices(ContainerBuilder builder)
+        {
+            //Register your Web API controllers.  
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
+            builder.RegisterControllers(Assembly.GetExecutingAssembly());
 
             builder.RegisterType<BusinessService>().As<IBusinessService>();
             builder.RegisterType<MasGlobalAPI>().As<IMasGlobalAPI>();
 
-            var container = builder.Build();
+            //Set the dependency resolver to be Autofac.  
+            Container = builder.Build();
 
-
-            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+            return Container;
         }
+
+
+        //public static void ConfigureContainer()
+        //{
+        //    var builder = new ContainerBuilder();
+
+        //    builder.RegisterControllers(Assembly.GetExecutingAssembly());
+        //    builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
+
+        //    builder.RegisterType<BusinessService>().As<IBusinessService>();
+        //    builder.RegisterType<MasGlobalAPI>().As<IMasGlobalAPI>();
+
+        //    var container = builder.Build();
+
+        //    DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+
+        //}
     }
 }

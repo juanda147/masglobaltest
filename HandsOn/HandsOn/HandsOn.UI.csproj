@@ -251,12 +251,16 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-3.4.2.debug.js" />
+    <Content Include="Scripts\knockout-3.4.2.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\ViewModel\EmployeesManager.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -290,6 +294,10 @@
     <ProjectReference Include="..\HandsOn.DataAccess\HandsOn.DataAccess.csproj">
       <Project>{B6B0A9A3-46FA-4B76-821C-1C0F5D070D80}</Project>
       <Name>HandsOn.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HandsOn.Model\HandsOn.Model.csproj">
+      <Project>{55CB9728-987E-4C38-8F46-A4999A47548A}</Project>
+      <Name>HandsOn.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

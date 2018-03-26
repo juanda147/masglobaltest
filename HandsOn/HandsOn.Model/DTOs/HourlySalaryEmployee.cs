@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace HandsOn.Model.DTOs
 {
-    public class HourlySalaryEmployee : Employee, IEmployeeFactory
+    public static class HourlySalaryEmployee
     {
-        public double GetSalary()
+        public static double GetSalary(double amount)
         {
-            return 120 * this.HourlySalary * 12;
+            return 120 * amount * 12;
         }
     }
 }

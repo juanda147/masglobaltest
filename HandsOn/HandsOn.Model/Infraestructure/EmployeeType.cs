@@ -8,7 +8,7 @@ namespace HandsOn.Model.Infraestructure
 {
     public static class EmployeeType
     {
-        public const string Montly = "MonthtlySalary";
-        public const string Hourly = "HourlySalary";
+        public const string Montly = "MonthlySalaryEmployee";
+        public const string Hourly = "HourlySalaryEmployee";
     }
 }

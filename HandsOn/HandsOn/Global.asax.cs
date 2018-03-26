@@ -19,7 +19,7 @@ namespace HandsOn
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            IoCInitializer.ConfigureContainer();
+            IoCInitializer.Initialize(GlobalConfiguration.Configuration);
         }
     }
 }

@@ -10,20 +10,20 @@ namespace HandsOn.Model.EmployeeFactory
 {
     public abstract class AbstractEmployeeFactory
     {
-        public abstract IEmployeeFactory GetTypeEmployee(string type);
+        public abstract double GetSalary(string type, Employee entity);
     }
 
     public class ConcreteEmployeeFactory : AbstractEmployeeFactory
     {
-        public override IEmployeeFactory GetTypeEmployee(string type)
+        public override double GetSalary(string type, Employee entity)
         {
             switch (type)
             {
                 case EmployeeType.Montly:
-                    return new HourlySalaryEmployee();
+                    return MonthlySalaryEmployee.GetSalary(entity.MonthlySalary);
 
                 case EmployeeType.Hourly:
-                    return new HourlySalaryEmployee();
+                    return HourlySalaryEmployee.GetSalary(entity.HourlySalary);
 
                 default:
                     throw new ApplicationException(string.Format("Employee type {0} cannot be created", type));

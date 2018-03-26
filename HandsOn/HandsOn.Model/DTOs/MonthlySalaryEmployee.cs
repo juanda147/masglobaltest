@@ -7,11 +7,11 @@ using HandsOn.Model.EmployeeFactory;
 
 namespace HandsOn.Model.DTOs
 {
-    public class MonthlySalaryEmployee : Employee, IEmployeeFactory
+    public static class MonthlySalaryEmployee
     {
-        public double GetSalary()
+        public static double GetSalary(double amount)
         {
-            return this.MonthlySalary * 12;
+            return amount * 12;
         }
     }
 }

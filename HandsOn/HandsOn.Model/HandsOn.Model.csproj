@@ -44,7 +44,6 @@
     <Compile Include="EmployeeFactory\AbstractEmployeeFactory.cs" />
     <Compile Include="DTOs\HourlySalaryEmployee.cs" />
     <Compile Include="DTOs\MonthlySalaryEmployee.cs" />
-    <Compile Include="EmployeeFactory\IEmployeeFactory.cs" />
     <Compile Include="Infraestructure\EmployeeType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
